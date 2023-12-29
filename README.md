@@ -36,3 +36,5 @@ AI Marker recognition with Tensorflow Lite and CameraX
           android:required="false" />
       <uses-permission android:name="android.permission.CAMERA"/>
     ```
+5. For UI, since in Compose we don't have yet ``PreviewView`` composable, i wrapped in ``AndroidView`` to create the ``CameraPreview``
+    
